@@ -1,0 +1,38 @@
+.main {
+  height: 45vh;
+}
+.slider-icons{
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  top: 100px;
+  margin: 0 10px;
+}
+.greeting-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px  auto;
+}
+
+.greeting, .greeting-name {
+
+  font-size: 40px;
+  color: darkturquoise;
+  mix-blend-mode: difference;
+  letter-spacing: 2px;
+
+}
+.greeting-name{
+  outline: none;
+}
+.slide-prev {
+  left: 20px;
+
+}
+
+.slide-next {
+  right: 20px;
+
+}
+

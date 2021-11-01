@@ -1,0 +1,10 @@
+.time{
+  z-index: 10;
+  min-height: 124px;
+  margin-bottom: 10px;
+  font-family: 'Arial-MT',sans-serif;
+  font-size: 50px;
+  letter-spacing: -4px;
+  color: aquamarine;
+  mix-blend-mode: exclusion;
+}

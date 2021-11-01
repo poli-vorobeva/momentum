@@ -1,0 +1,15 @@
+.weather{
+  position: absolute;
+  right: 0;
+
+}
+.weather span{
+  display: block;
+}
+.city{
+  border: none;
+  background: transparent;
+  color: white;
+  text-transform: capitalize;
+  letter-spacing: 2px;
+}

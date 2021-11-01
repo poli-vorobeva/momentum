@@ -1,0 +1,60 @@
+.visualizator-canvas{
+  position: absolute;
+  top: 50px;
+  left:0;
+  z-index: 5;
+}
+.media-wrapper{
+
+}
+.audioItem__button{
+  border-radius: 50%;
+  background: rgba(70, 255, 237, 0.4);
+  box-shadow: inset 2px 5px 10px;
+  border: none;
+  color: burlywood;
+  width: 50px;
+  height: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: all ease-out 500ms;
+}
+.audioItem__button:hover{
+  box-shadow: inset -7px 5px 10px rgba(255, 255, 255,0.7)
+}
+.audioItem__wrapper{
+  display: flex;
+}
+.deleteItem__button{
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  line-height: 100%;
+  border: none;
+  background: cadetblue;
+  color: rgba(255,255,255,0.5);
+  font-weight: 900;
+}
+.media-stop,.media-start{
+  border: none;
+  outline: none;
+  background: antiquewhite;
+  padding: 10px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  mix-blend-mode: difference;
+  font-weight: 900;
+  margin: 2px;
+  border-radius: 5px;
+}
+.media-start{
+
+}
+.microfon-canvas{
+  position: absolute;
+  top: 15%;
+  left: 0;
+}
+.audioItem__hidden{
+  opacity: 0;
+}
